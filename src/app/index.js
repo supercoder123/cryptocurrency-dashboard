@@ -2,12 +2,13 @@ import React from 'react';
 import './App.css';
 import styled, {css} from 'styled-components';
 import WelcomeMessage from './WelcomeMessage';
+import AppLayout from './AppLayout'
 
 function App() {
   return (
-    <div>
-      <WelcomeMessage name='cryptodash' />
-    </div>
+    <AppLayout>
+      <WelcomeMessage name='CryptoDash' />
+    </AppLayout>
     
   );
 }
