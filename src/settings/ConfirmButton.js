@@ -21,7 +21,6 @@ export default function(){
                         Confirm Favorites
                     </ConfirmButtonStyled>
                 </CenterDiv>
-                
             }
         </AppContext.Consumer>
     )
